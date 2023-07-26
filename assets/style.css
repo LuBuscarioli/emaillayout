@@ -4,25 +4,29 @@
     box-sizing: border-box;
 }
 
-.content {
+.content-wrap {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.content {
+    width: 900px;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .top {
-    width: 1200px;
     background-color: rgb(248, 239, 255);
-    display: flex;
     height: 300px;
-    justify-content: center;
-    align-items: center;
+    width: 900px;
 }
 
 .top-logo {
     height: 250px;
+    display: block;
+    margin: 0 auto;
 }
 
 .main h1 {
