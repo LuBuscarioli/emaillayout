@@ -13,20 +13,23 @@
 .content {
     width: 900px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: rgb(248, 239, 255);
 }
 
-/* .top {
+.top {
     height: 300px;
     width: 900px;
+    display: flex;
+    align-items: center;
 }
 
 .top-logo {
-    height: 250px;
+    height: 200px;
     display: block;
     margin: 0 auto;
-} */
+}
 
 .main h1 {
     text-align: center;
