@@ -30,7 +30,7 @@ body {
 
 .main h1, .main h4 {
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 1rem 0 1rem 0 ;
 }
 
 .main-img-center {
@@ -60,6 +60,7 @@ body {
 
 .main-bottom {
     display: flex;
+    margin: 1rem 0 2rem 0;
 }
 
 .main-bottom div {
@@ -78,4 +79,8 @@ body {
     height: 148px;
     display: block;
     margin: 0 auto;
+}
+
+.bottom-text h1, .bottom-text h4{
+    margin: 1rem 0 1rem 0;
 }
