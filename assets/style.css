@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .content-wrap {
     width: 100%;
     display: flex;
@@ -19,7 +23,7 @@
 }
 
 .stripes {
-    height:55px;
+    height: 55px;
     width: 100%;
     background-color: #662377;
 }
@@ -63,7 +67,6 @@
 }
 
 .bottom {
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +75,7 @@
 }
 
 .candle-img {
-    height: 200px;
+    height: 148px;
     display: block;
     margin: 0 auto;
 }
