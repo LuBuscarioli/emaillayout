@@ -13,12 +13,11 @@
 .content {
     width: 900px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 239, 255);
 }
 
-.top {
-    background-color: rgb(248, 239, 255);
+/* .top {
     height: 300px;
     width: 900px;
 }
@@ -27,7 +26,7 @@
     height: 250px;
     display: block;
     margin: 0 auto;
-}
+} */
 
 .main h1 {
     text-align: center;
@@ -35,4 +34,25 @@
 
 .main-img-center {
     height: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.main-left, .main-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-img-left, .main-img-right {
+    width: 80%;
+}
+
+.main-bottom {
+    display: flex;
+}
+
+.main-bottom div {
+    width: 50%;
 }
