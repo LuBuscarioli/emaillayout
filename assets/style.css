@@ -31,14 +31,15 @@
     margin: 0 auto;
 }
 
-.main h1 {
+.main h1, .main h4 {
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .main-img-center {
     height: 350px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
 }
 
 .main-left, .main-right {
@@ -48,8 +49,16 @@
     align-items: center;
 }
 
+.main-left h2, .main-right h2{
+    margin-bottom: 1rem;
+}
+
 .main-img-left, .main-img-right {
     width: 80%;
+}
+
+.main-img-left, .main-img-right, .main-img-center {
+    border-radius: 25px;
 }
 
 .main-bottom {
